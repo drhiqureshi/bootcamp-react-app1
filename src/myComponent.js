@@ -3,8 +3,13 @@ import React from 'react';
 function MyComponent(props){
     return(
         <div>
-        <h1>Today we are serving {props.dishName}</h1>
-        <h1>and also {props.sweetDish}.</h1>
+        <h1>Employess Listing</h1>
+        <ul>
+            <li>Employee Name :  {props.empName}</li>
+            <li>Employee Designation :  {props.empName}</li>
+            <li>Employee Age :  {props.empName}</li>
+        </ul>
+        
         </div>
     )
 

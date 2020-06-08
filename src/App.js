@@ -7,11 +7,11 @@ function App() {
   return (
     <div className="App">
    {/* <MyComponent /> */}
-   <MyComponent dishName="Qorma" sweetDish="Gajar Ka Halwa"></MyComponent>
+   <MyComponent empName="Ali" empDesignation="Software Developer" empAge="37"></MyComponent>
    <hr/>
-   <MyComponent dishName="Biryani" sweetDish="Kheer"></MyComponent> 
+   <MyComponent empName="Yasir" empDesignation="Designer" empAge="22"></MyComponent> 
    <hr/>
-   <MyComponent dishName="Karahi" sweetDish="Casturd"></MyComponent>   
+   <MyComponent empName="Khurrum" empDesignation="Acountant" empAge="32"></MyComponent>   
    </div>
   );
 }
