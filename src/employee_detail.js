@@ -2,7 +2,7 @@ import React from 'react';
 
 function Edetail(props){
     return(
-        <div {width=300px}>
+        <div>
         <ul>
             <li>Employee Name :  {props.empName}</li>
             <li>Employee Designation :  {props.empDesignation}</li>
