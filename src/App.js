@@ -1,17 +1,17 @@
 import React from 'react';
 import './App.css';
-import MyComponent from './myComponent';
+import Employee from './employee';
+import Edetail from './employee_detail';
 
 
 function App() {
   return (
     <div className="App">
-   {/* <MyComponent /> */}
-   <MyComponent empName="Ali" empDesignation="Software Developer" empAge="37"></MyComponent>
-   <hr/>
-   <MyComponent empName="Yasir" empDesignation="Designer" empAge="22"></MyComponent> 
-   <hr/>
-   <MyComponent empName="Khurrum" empDesignation="Acountant" empAge="32"></MyComponent>   
+   {/* <Employee /> */}
+   <Employee compName="XYZ"></Employee> 
+   <Edetail empName="Ali" empDesignation="Software Developer" empAge="35"></Edetail>
+   <Edetail empName="Sohail" empDesignation="Accountant" empAge="31"></Edetail>
+   <Edetail empName="Yasir" empDesignation="Designer" empAge="24"></Edetail>
    </div>
   );
 }
